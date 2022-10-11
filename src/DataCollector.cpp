@@ -15,7 +15,6 @@ bool DataCollector::shouldCollect() {
 void DataCollector::collectData() {
     append("uptime", millis() / 1000);
     append("const_temp", 22.8f, 1);
-    logger.log("Collection completed");
 }
 
 bool DataCollector::shouldPush() {
@@ -23,5 +22,4 @@ bool DataCollector::shouldPush() {
 }   
 
 void DataCollector::onPush() {
-    logger.log("Push completed");
 }

@@ -8,7 +8,19 @@ Template for ESP32 IOT controller. Fully functional, but "blank".
  * InfluxDB integration
  * Settings that are configurable through the UI
 
-Implementation is async and non-blocking.
+The web server exposes the following pages:
+
+### http://{hostname}/settings
+Expose a form where the user can configure settings. Such are the WiFi SSID and password, the hostname, the InfluxDB integration settings.
+
+### http://{hostname}/logs
+Return the generated logs.
+
+### http://{hostname}/get
+A JSON with RSSI information.
+
+### http://{hostname}/restart
+Force restart of the controller.
 
 ## User Guide
 
