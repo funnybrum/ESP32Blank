@@ -19,7 +19,8 @@ Implementation is async and non-blocking.
 5) Add functionality as needed (sensors, actuators, GPIO pins for managing different IOT stuff).
 6) Update the settings page as needed.
 7) Optionally start InfluxDB, configure telemetry collection and enable the InfluxDB integration in the settings page.
-8) Leave feedback :) .
+8) Check the (ESP32 Base project)[https://github.com/funnybrum/ESP32Base] for more details.
+9) Leave feedback :) .
 
 ## Examples use-cases
 The following are valid examples that I've built (but with the ESP8266 controller):
@@ -31,7 +32,7 @@ The following are valid examples that I've built (but with the ESP8266 controlle
 
 ## Building the project
 
-The project uses a common set of tools that are availabe in another repo - https://github.com/funnybrum/esp8266-base. Clone the esp8266-base repo in the lib folder:
+The project uses a common set of tools that are availabe in another repo - https://github.com/funnybrum/ESP32Base. Clone the esp8266-base repo in the lib folder:
 
 ```
 mkdir lib
