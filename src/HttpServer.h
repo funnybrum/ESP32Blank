@@ -10,4 +10,5 @@ class HttpServer: public HttpServerBase {
         void registerHandlers();
         void handle_root();
         void handle_settings();
+        void handle_get();
 };

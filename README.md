@@ -24,10 +24,12 @@ Implementation is async and non-blocking.
 
 ## Examples use-cases
 The following are valid examples that I've built (but with the ESP8266 controller):
- * Lossnay LGH-80RVX-E controller exposing web interface for managing the controller and collecting telemetry for the exhaust and supply air.
- * Thermostat for the LG Therma-V heatpump allowing you to manage the pump through WEB interface.
+ * Lossnay LGH-100RVX-E controller exposing web interface for managing the controller and collecting telemetry for the exhaust and supply air.
+ * Controller for the LG Therma-V heatpump allowing you to manage the pump through WEB interface and to collect consumption data.
+ * Immergas VICTRIX MAIOR 28 TT controller.
  * Ventilation valve controller.
- * Air quality monitor with mulitple sensors sending the AQ data to an InfluxDB.
+ * Air quality monitor.
+ * Humidifier IOT upgrade.
  * Many more...
 
 ## Building the project
